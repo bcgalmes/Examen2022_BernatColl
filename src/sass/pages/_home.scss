@@ -1,3 +1,73 @@
 /* ********* */
 /* @HOME */
 /* ********* */
+
+.contenedor, .contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+ 
+}
+
+.todo {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor {
+    background-color: map-get($colores , fondo1 );
+    max-width: fit-content; 
+
+}
+
+.contenido, .contenido2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5%;
+    color: map-get($colores, colorTextoNormal);
+    padding: 7%;
+}
+
+h4 {
+    font-size: 50px;
+    margin: 0;
+    color: map-get($colores, colorTextoTitulo);
+}
+
+img {
+    padding: 2%
+}
+
+.parrafo2__top {
+    border-left: 3PX solid;
+    padding: 2%;
+    padding-left: 5%;
+    color: map-get($colores, colorTextoAzul );
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: map-get($colores , colorBoton );
+    padding: 2%;
+    color:map-get($colores, colorTexto__btn );
+    margin-top: 10%;
+    font-weight: bold;
+    width: 250px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    
+}

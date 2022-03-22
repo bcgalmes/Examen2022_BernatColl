@@ -1,3 +1,17 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+// Colores
+$colores:(
+    // Fondo
+    fondo1:rgb(233, 233, 233),
+
+    // Texto
+    colorTextoNormal: rgb(136, 136, 136),
+    colorTextoAzul: rgb(18, 119, 212),
+    colorTextoTitulo: black,
+
+    // Boton
+    colorBoton: rgb(18, 119, 270),
+    colorTexto__btn: white
+);
